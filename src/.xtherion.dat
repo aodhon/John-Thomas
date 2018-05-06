@@ -4,9 +4,11 @@ xth_cp_data_tree_insert 22 1 1 JohnThomas JohnThomas "JohnThomas" "JohnThomas" "
 xth_cp_data_tree_create
 set xth(ctrl,cp,maplist) {}
 xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
-xth_cp_map_tree_insert map 1 359X1 p1 1 mEntrancePassagep mEntrancePassagep@JohnThomas "" ""
+xth_cp_map_tree_insert projection 0 p2 {} 0 none {} {} {}
+xth_cp_map_tree_insert map 1 405X1 p1 1 mEntrancePassagep mEntrancePassagep@JohnThomas "" ""
+xth_cp_map_tree_insert map 1 406X1 p1 1 mDownclimbp mDownclimbp@JohnThomas "" ""
 xth_cp_map_tree_create
-xth_cp_comp_stat 78 1
-set xth(th_exit_state) 1
-set xth(th_exit_number) 1525635291
+xth_cp_comp_stat 78 4
+set xth(th_exit_state) 2
+set xth(th_exit_number) 1525641419
 

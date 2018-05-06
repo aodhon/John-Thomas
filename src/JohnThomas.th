@@ -5,10 +5,10 @@ survey JohnThomas -title "JohnThomas"
 
   input "JohnThomas-EntrancePassagep.th2"
   # input "JohnThomas-EntrancePassages.th2"
-  # input "JohnThomas-xx0.th2"
-  # input "JohnThomas-xx1.th2"
-  # input "JohnThomas-xx2.th2"
-  # input "JohnThomas-Downclimbp.th2"
+  input "JohnThomas-xx0.th2"
+  #input "JohnThomas-xx1.th2"
+  input "JohnThomas-xx2.th2"
+  input "JohnThomas-Downclimbp.th2"
   ## input "JohnThomas-Downclimbs.th2"
   # input "JohnThomas-RiftChamberp.th2"
   ## input "JohnThomas-RiftChambers.th2"
@@ -24,9 +24,9 @@ survey JohnThomas -title "JohnThomas"
   # map mEntrancePassages -projection elevation
   #   JohnThomas-EntrancePassages
   # endmap
-  # map mDownclimbp -projection plan
-  #   JohnThomas-Downclimbp
-  # endmap
+  map mDownclimbp -projection plan
+    JohnThomas-Downclimbp
+  endmap
   ## map mDownclimbs -projection extended
   ##   JohnThomas-Downclimbs
   ## endmap
