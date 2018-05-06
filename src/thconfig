@@ -1,0 +1,18 @@
+encoding  utf-8
+source JohnThomas.th
+export map -proj plan -layout local -output ../output/JohnThomas.pdf
+export model -fmt kml -o ../output/JohnThomas.kml
+export map -proj plan -fmt kml -o ../output/JohnThomasPlan.kml
+export model -o ../output/JohnThomas.lox
+export model -o ../output/JohnThomas.3d
+
+
+layout local
+  scale 1 100
+  #color-legend on
+  #color map-fg scrap
+  #color map-bg [75 75 75]
+  legend on
+  scale-bar 10 m
+  #map-header 0 0 sw
+endlayout

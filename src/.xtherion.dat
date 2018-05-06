@@ -1,0 +1,12 @@
+set xth(ctrl,cp,datlist) {}
+xth_cp_data_tree_insert 1 {} 0   "" "" "length: 77.88m (surface 0.00m, duplicated 0.00m)\nvertical range: 14.04m (from 17@JohnThomas at 156.87m to 27@JohnThomas at 142.83m)\nnorth-south range: 20.74m (from 15@JohnThomas at 6012613.95m to 25@JohnThomas at 6012593.21m)\neast-west range: 31.94m (from 20@JohnThomas at 576991.39m to Entrance@JohnThomas at 576959.45m)\nnumber of shots: 348\nnumber of stations: 349"
+xth_cp_data_tree_insert 22 1 1 JohnThomas JohnThomas "JohnThomas" "JohnThomas" "length: 77.88m (surface 0.00m, duplicated 0.00m)\nvertical range: 14.04m (from 17@JohnThomas at 156.87m to 27@JohnThomas at 142.83m)\nnorth-south range: 20.74m (from 15@JohnThomas at 6012613.95m to 25@JohnThomas at 6012593.21m)\neast-west range: 31.94m (from 20@JohnThomas at 576991.39m to Entrance@JohnThomas at 576959.45m)\nnumber of shots: 348\nnumber of stations: 349"
+xth_cp_data_tree_create
+set xth(ctrl,cp,maplist) {}
+xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
+xth_cp_map_tree_insert map 1 359X1 p1 1 mEntrancePassagep mEntrancePassagep@JohnThomas "" ""
+xth_cp_map_tree_create
+xth_cp_comp_stat 78 1
+set xth(th_exit_state) 1
+set xth(th_exit_number) 1525635291
+

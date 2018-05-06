@@ -1,17 +1,21 @@
-encoding utf-8
-##XTHERION## xth_me_area_adjust 174.7 -1007.8 4027.8 791.7
-##XTHERION## xth_me_area_zoom_to 25
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -130.0 -1684.5 3486.5 457.0
+##XTHERION## xth_me_area_zoom_to 200
 
 # 2018.05.06 created by TopoDroid v. 4.0.0h
 
 #P  u:user label air-draught blocks clay continuation debris entrance flowstone rimstone-pool paleo-material pillar pillars sand soda-straw stalactite stalactites stalagmite stalagmites wall-calcite water-flow
 #L  u:user wall arrow border overhang pit wall:presumed rock-border section slope wall:blocks
 #A  u:user water blocks clay debris pebbles sand
+
+
+
+
 scrap JohnThomas-EntrancePassagep -projection plan -scale [0 0 100 0 0 0 1 0 m]
 
 line wall
-  145.59 -689.60
-  160.20 -676.09
+  145.59 -689.6
+  160.2 -676.09
   179.45 -667.82
   200.05 -657.05
   217.16 -643.83
@@ -22,15 +26,15 @@ line wall
   323.55 -618.22
 endline
 
-line overhang
+line ceiling-step -reverse on
   293.45 -706.52
   273.73 -684.45
   258.68 -664.83
   242.97 -648.98
 endline
 
-line wall
-  324.37 -701.40
+line wall -close off
+  324.37 -701.4
 endline
 
 line wall
@@ -64,27 +68,27 @@ line wall
   338.46 -611.53
   356.96 -602.68
   372.84 -575.64
-  383.03 -554.50
+  383.03 -554.5
   395.18 -533.37
   403.24 -511.05
   407.33 -483.58
   410.75 -459.69
   412.08 -432.96
   414.32 -413.08
-  415.24 -388.90
+  415.24 -388.9
 endline
 
-line section -direction both -id xx0
+line section -id xx0 -direction both
   712.85 -385.53
   738.01 -675.35
 endline
 
 line wall
   428.89 -377.36
-  460.14 -384.10
+  460.14 -384.1
   474.23 -409.39
   475.65 -443.31
-  503.15 -446.70
+  503.15 -446.7
   532.01 -418.06
   543.56 -385.15
   568.19 -386.35
@@ -100,7 +104,7 @@ line wall
   502.96 -605.47
   524.86 -596.39
   550.76 -585.63
-  572.40 -581.25
+  572.4 -581.25
   595.98 -580.72
   618.93 -581.78
   645.82 -587.37
@@ -112,7 +116,7 @@ endline
 line wall
   718.05 -617.75
   741.91 -608.73
-  763.56 -602.50
+  763.56 -602.5
   784.27 -605.25
   804.36 -604.29
   827.09 -599.89
@@ -120,7 +124,7 @@ endline
 
 line wall
   831.64 -601.26
-  852.47 -590.40
+  852.47 -590.4
   872.16 -580.84
   890.31 -571.27
   909.39 -563.93
@@ -129,12 +133,12 @@ endline
 line wall
   904.32 -567.61
   925.85 -566.99
-  949.00 -571.07
+  949.0 -571.07
   969.56 -576.16
   992.38 -583.17
-  1012.60 -585.74
+  1012.6 -585.74
   1035.93 -585.98
-  1057.37 -586.50
+  1057.37 -586.5
   1081.08 -592.09
   1105.57 -597.55
   1126.12 -603.05
@@ -145,13 +149,13 @@ line wall
   1161.12 -618.19
   1180.93 -621.33
   1204.46 -622.43
-  1227.71 -620.10
+  1227.71 -620.1
   1253.31 -612.75
   1276.13 -600.17
   1294.83 -587.31
   1310.39 -574.68
   1329.05 -558.36
-  1350.84 -541.10
+  1350.84 -541.1
   1373.47 -521.82
   1390.32 -509.68
 endline
@@ -165,13 +169,13 @@ line wall
   844.19 -514.75
   868.03 -512.99
   889.57 -508.38
-  914.20 -507.69
+  914.2 -507.69
   934.37 -505.34
   959.66 -504.93
-  981.40 -504.09
-  1006.34 -499.70
+  981.4 -504.09
+  1006.34 -499.7
   1030.77 -493.58
-  1050.66 -487.70
+  1050.66 -487.7
   1075.62 -479.14
   1094.62 -472.37
 endline
@@ -180,13 +184,13 @@ line wall
   1098.65 -485.12
   1119.03 -489.74
   1141.98 -497.93
-  1165.90 -503.72
+  1165.9 -503.72
   1190.85 -498.77
   1215.86 -488.86
   1234.81 -480.17
   1248.64 -464.73
   1266.27 -453.11
-  1289.48 -443.80
+  1289.48 -443.8
   1311.11 -434.04
   1336.54 -427.36
   1363.97 -421.24
@@ -201,8 +205,8 @@ line wall
   1467.79 -521.05
   1491.38 -524.01
   1514.23 -526.65
-  1537.80 -528.88
-  1558.01 -529.90
+  1537.8 -528.88
+  1558.01 -529.9
   1585.48 -526.55
   1607.67 -517.63
   1627.26 -506.64
@@ -225,22 +229,22 @@ line wall
   1421.05 -419.84
   1442.96 -431.79
   1463.25 -439.09
-  1487.90 -444.31
+  1487.9 -444.31
   1511.94 -448.52
   1530.23 -458.03
-  1554.50 -455.34
-  1576.58 -446.90
+  1554.5 -455.34
+  1576.58 -446.9
   1601.52 -446.59
   1622.16 -448.49
   1641.11 -441.66
   1661.21 -434.98
   1679.71 -427.65
-  1697.46 -416.30
+  1697.46 -416.3
 endline
 
 line wall
   1706.93 -421.22
-  1728.05 -411.90
+  1728.05 -411.9
   1748.46 -408.07
   1768.36 -412.37
   1788.36 -417.52
@@ -254,18 +258,18 @@ line wall
   1874.77 -422.31
   1894.94 -424.08
   1916.96 -425.79
-  1937.44 -433.00
+  1937.44 -433.0
   1951.98 -446.64
-  1970.40 -457.85
+  1970.4 -457.85
   1992.03 -459.85
 endline
 
 line wall
   1724.39 -482.14
-  1743.62 -475.10
-  1765.53 -473.00
+  1743.62 -475.1
+  1765.53 -473.0
   1789.04 -478.44
-  1809.34 -481.00
+  1809.34 -481.0
   1831.67 -482.14
   1853.91 -485.48
   1876.55 -489.37
@@ -277,58 +281,58 @@ line pit
   1995.36 -467.27
   2023.35 -462.93
   2058.53 -453.17
-  2081.54 -443.10
+  2081.54 -443.1
   2100.65 -436.53
   2124.36 -427.06
   2144.85 -415.63
   2148.78 -399.99
   2122.21 -402.31
   2093.26 -411.93
-  2065.40 -417.95
-  2040.72 -423.50
+  2065.4 -417.95
+  2040.72 -423.5
   2018.66 -430.02
   1996.19 -436.71
   1978.06 -446.63
   1961.18 -457.42
-  1944.40 -470.44
+  1944.4 -470.44
   1924.14 -494.58
   1912.43 -513.22
   1919.99 -522.12
   1942.95 -509.94
-  1971.30 -495.36
-  2000.90 -478.25
-  2032.10 -454.36
+  1971.3 -495.36
+  2000.9 -478.25
+  2032.1 -454.36
   2063.53 -429.81
 endline
 
 point 1992.37 -395.02 label -text "rift -2"
 
 line wall
-  2166.60 -398.60
+  2166.6 -398.6
   2156.84 -419.14
-  2153.10 -442.12
-  2152.10 -467.24
-  2149.10 -491.30
+  2153.1 -442.12
+  2152.1 -467.24
+  2149.1 -491.3
   2149.71 -515.92
   2155.48 -539.75
   2162.49 -559.87
-  2172.60 -583.07
+  2172.6 -583.07
   2182.25 -606.71
   2191.55 -624.96
   2207.94 -642.27
 endline
 
 line wall
-  2209.80 -629.76
+  2209.8 -629.76
   2213.03 -657.37
-  2215.73 -682.20
+  2215.73 -682.2
 endline
 
 line wall
-  1926.65 -515.00
+  1926.65 -515.0
   1927.79 -539.28
   1933.95 -562.26
-  1941.95 -586.50
+  1941.95 -586.5
   1955.48 -607.84
   1965.67 -626.18
   1976.94 -645.82
@@ -337,13 +341,13 @@ line wall
   2023.57 -701.46
   2040.08 -719.35
   2058.36 -737.61
-  2073.40 -760.23
-  2090.40 -778.28
-  2107.21 -791.00
+  2073.4 -760.23
+  2090.4 -778.28
+  2107.21 -791.0
   2127.53 -808.81
   2144.51 -821.91
   2167.19 -831.11
-  2195.05 -834.50
+  2195.05 -834.5
   2217.13 -838.57
   2244.17 -837.21
   2267.01 -835.18
@@ -355,10 +359,10 @@ line wall
   2338.88 -801.62
   2341.55 -779.76
   2348.66 -760.62
-  2361.00 -740.91
-  2379.23 -726.80
+  2361.0 -740.91
+  2379.23 -726.8
   2394.58 -711.73
-  2411.30 -700.07
+  2411.3 -700.07
   2424.06 -683.91
   2442.17 -670.17
   2449.57 -650.62
@@ -373,14 +377,14 @@ line wall
   2292.37 -705.01
   2316.46 -698.01
   2333.02 -683.19
-  2347.25 -667.70
+  2347.25 -667.7
   2360.27 -646.23
   2377.32 -630.55
 endline
 
 line wall
-  2169.70 -402.85
-  2148.22 -396.10
+  2169.7 -402.85
+  2148.22 -396.1
   2128.09 -400.22
   2108.86 -406.95
   2085.82 -413.25
@@ -393,8 +397,8 @@ endline
 
 line wall
   2455.89 -610.89
-  2458.30 -590.53
-  2465.90 -567.35
+  2458.3 -590.53
+  2465.9 -567.35
   2471.89 -548.21
   2476.66 -524.77
   2478.58 -501.04
@@ -412,11 +416,11 @@ line wall
   2387.83 -455.41
   2398.35 -474.39
   2410.22 -494.12
-  2421.70 -514.43
+  2421.7 -514.43
   2424.15 -538.56
   2418.42 -564.45
   2412.34 -587.08
-  2401.30 -608.84
+  2401.3 -608.84
   2388.33 -625.05
 endline
 
@@ -424,7 +428,7 @@ line wall
   2481.69 -426.71
   2483.86 -405.43
   2486.03 -382.66
-  2489.50 -358.50
+  2489.5 -358.5
   2493.22 -334.57
   2497.36 -313.72
   2506.29 -289.45
@@ -433,14 +437,14 @@ line wall
   2536.85 -229.03
   2548.07 -206.75
   2555.23 -182.86
-  2558.90 -161.86
+  2558.9 -161.86
   2557.88 -139.26
   2553.36 -118.08
   2551.09 -96.65
   2546.76 -72.78
   2539.38 -53.68
   2522.88 -36.74
-  2506.80 -23.26
+  2506.8 -23.26
   2492.44 -5.33
   2476.13 13.48
 endline
@@ -451,7 +455,7 @@ line wall
   2423.56 -313.08
   2434.52 -295.49
   2441.42 -271.76
-  2440.50 -246.23
+  2440.5 -246.23
   2433.59 -225.61
   2424.77 -205.57
   2414.51 -185.86
@@ -464,20 +468,20 @@ endline
 line wall
   2368.23 -99.37
   2368.23 -78.28
-  2365.70 -54.50
+  2365.7 -54.5
   2361.51 -34.05
   2360.14 -13.93
   2362.72 10.46
   2376.88 30.69
   2389.77 45.89
   2398.65 63.73
-  2407.97 82.80
-  2419.17 103.50
-  2430.57 123.40
+  2407.97 82.8
+  2419.17 103.5
+  2430.57 123.4
   2445.53 145.67
-  2457.67 164.80
+  2457.67 164.8
   2472.87 177.79
-  2490.03 192.40
+  2490.03 192.4
 endline
 
 line wall
@@ -494,11 +498,11 @@ line wall
   2487.96 178.87
   2501.09 196.27
   2519.97 216.41
-  2541.69 219.20
+  2541.69 219.2
   2559.87 204.61
   2571.19 181.51
   2579.57 158.57
-  2590.74 139.60
+  2590.74 139.6
   2604.99 122.27
 endline
 
@@ -506,8 +510,8 @@ line wall
   2518.96 217.33
   2541.75 228.49
   2559.44 243.43
-  2572.88 267.10
-  2579.28 287.70
+  2572.88 267.1
+  2579.28 287.7
 endline
 
 line wall
@@ -521,7 +525,7 @@ endline
 
 line wall
   2587.35 160.03
-  2586.70 182.53
+  2586.7 182.53
   2591.13 204.07
 endline
 
@@ -532,12 +536,12 @@ line wall
   2563.15 146.58
   2576.42 121.58
   2587.46 102.99
-  2595.00 80.18
+  2595.0 80.18
   2598.21 55.53
-  2605.00 21.56
+  2605.0 21.56
   2612.94 -0.97
   2635.28 -24.43
-  2651.60 -38.42
+  2651.6 -38.42
   2667.94 -56.29
   2686.25 -72.43
   2704.74 -94.39
@@ -545,7 +549,7 @@ line wall
   2752.88 -125.06
   2781.55 -119.47
   2808.37 -123.45
-  2837.18 -132.60
+  2837.18 -132.6
   2861.36 -140.29
   2884.09 -148.86
   2905.79 -165.99
@@ -554,20 +558,20 @@ line wall
 endline
 
 line wall
-  2968.17 -132.40
+  2968.17 -132.4
   2950.91 -112.06
-  2935.50 -94.78
+  2935.5 -94.78
   2916.96 -74.58
   2902.17 -57.34
-  2887.62 -43.60
+  2887.62 -43.6
   2858.12 -16.57
   2843.85 -0.65
   2829.44 13.76
   2799.76 37.67
   2781.91 47.25
-  2744.10 42.62
+  2744.1 42.62
   2706.52 61.55
-  2688.00 74.97
+  2688.0 74.97
   2668.29 84.93
   2637.49 119.18
   2618.18 132.78
@@ -575,27 +579,27 @@ line wall
   2580.15 175.54
 endline
 
-line section -direction both -id xx2
+line section -id xx2 -direction both
   2840.36 144.66
   2690.05 -250.68
 endline
 
 line wall
   2983.88 -130.24
-  3008.56 -147.60
+  3008.56 -147.6
   3044.75 -164.35
-  3074.80 -186.72
+  3074.8 -186.72
   3091.92 -199.48
   3119.33 -227.23
   3149.06 -250.59
   3164.61 -266.33
   3184.01 -289.67
   3200.34 -318.31
-  3218.68 -344.30
+  3218.68 -344.3
   3240.65 -368.95
   3264.11 -393.74
   3280.39 -418.21
-  3287.59 -448.70
+  3287.59 -448.7
   3288.27 -482.74
   3277.95 -516.38
   3257.66 -549.42
@@ -610,7 +614,7 @@ line wall
   3114.88 -810.27
   3112.99 -831.33
   3112.32 -862.54
-  3130.02 -885.80
+  3130.02 -885.8
 endline
 
 line wall
@@ -619,13 +623,13 @@ line wall
   2962.01 -252.22
   2976.33 -274.03
   2990.54 -294.09
-  3020.78 -323.50
+  3020.78 -323.5
   3059.46 -339.28
   3080.86 -344.97
   3109.03 -360.39
   3139.22 -375.89
   3154.81 -401.54
-  3153.16 -441.80
+  3153.16 -441.8
   3143.44 -474.37
   3136.39 -504.23
   3136.41 -538.66
@@ -637,7 +641,7 @@ line wall
   3082.89 -746.81
   3077.98 -781.59
   3063.27 -820.82
-  3055.80 -843.00
+  3055.8 -843.0
   3058.45 -879.74
   3073.82 -910.54
 endline
@@ -654,12 +658,12 @@ line wall
   3140.91 -888.23
   3164.18 -894.16
   3189.86 -910.68
-  3208.16 -925.00
+  3208.16 -925.0
   3229.74 -941.82
   3248.86 -953.46
-  3277.20 -974.81
+  3277.2 -974.81
   3302.08 -986.98
-  3323.70 -994.02
+  3323.7 -994.02
   3343.25 -1001.97
 endline
 
@@ -672,15 +676,15 @@ line wall
 endline
 
 line wall
-  3147.30 -949.43
+  3147.3 -949.43
   3173.86 -966.13
   3196.68 -975.26
   3221.28 -984.05
   3246.93 -991.34
   3267.17 -1002.33
   3290.92 -1015.07
-  3311.20 -1027.04
-  3318.10 -1044.73
+  3311.2 -1027.04
+  3318.1 -1044.73
   3309.62 -1070.43
   3292.94 -1092.13
 endline
@@ -688,7 +692,7 @@ endline
 point 3275.17 -1168.19 continuation
 
 line pit
-  2238.24 -847.50
+  2238.24 -847.5
   2214.99 -825.69
   2198.26 -811.83
   2168.24 -781.88
@@ -698,1064 +702,1344 @@ line pit
   2045.08 -739.07
 endline
 
-
 line u:splay -visibility off
   144.27 -690.56
   245.22 -637.78
 endline
+
 line u:splay -visibility off
   144.27 -690.56
-  260.14 -667.80
+  260.14 -667.8
 endline
+
 line u:splay -visibility off
   144.27 -690.56
-  393.80 -688.60
+  393.8 -688.6
 endline
+
 line u:splay -visibility off
-  500.00 -600.00
-  418.50 -703.57
+  500.0 -600.0
+  418.5 -703.57
 endline
+
 line u:splay -visibility off
-  500.00 -600.00
+  500.0 -600.0
   351.19 -702.43
 endline
+
 line u:splay -visibility off
-  500.00 -600.00
+  500.0 -600.0
   346.27 -606.89
 endline
+
 line u:splay -visibility off
-  500.00 -600.00
+  500.0 -600.0
   376.89 -561.49
 endline
+
 line u:splay -visibility off
-  500.00 -600.00
-  397.59 -498.50
+  500.0 -600.0
+  397.59 -498.5
 endline
+
 line u:splay -visibility off
-  500.00 -600.00
+  500.0 -600.0
   416.27 -460.62
 endline
+
 line u:splay -visibility off
-  500.00 -600.00
+  500.0 -600.0
   424.69 -376.09
 endline
+
 line u:splay -visibility off
-  500.00 -600.00
+  500.0 -600.0
   488.45 -439.22
 endline
+
 line u:splay -visibility off
-  500.00 -600.00
+  500.0 -600.0
   589.18 -396.07
 endline
+
 line u:splay -visibility off
-  500.00 -600.00
+  500.0 -600.0
   637.11 -460.36
 endline
+
 line u:splay -visibility off
-  500.00 -600.00
+  500.0 -600.0
   717.81 -490.91
 endline
+
 line u:splay -visibility off
-  500.00 -600.00
+  500.0 -600.0
   553.38 -584.82
 endline
+
 line u:splay -visibility off
   730.08 -521.51
   727.44 -443.87
 endline
+
 line u:splay -visibility off
   730.08 -521.51
   730.72 -476.76
 endline
+
 line u:splay -visibility off
   730.08 -521.51
   732.37 -494.09
 endline
+
 line u:splay -visibility off
   730.08 -521.51
-  731.50 -506.86
+  731.5 -506.86
 endline
+
 line u:splay -visibility off
   730.08 -521.51
   726.35 -532.56
 endline
+
 line u:splay -visibility off
   730.08 -521.51
   728.61 -570.11
 endline
+
 line u:splay -visibility off
   730.08 -521.51
   724.36 -618.58
 endline
+
 line u:splay -visibility off
   730.08 -521.51
   725.43 -609.34
 endline
+
 line u:splay -visibility off
   730.08 -521.51
   727.41 -594.01
 endline
+
 line u:splay -visibility off
   730.08 -521.51
   726.05 -587.55
 endline
+
 line u:splay -visibility off
   730.08 -521.51
   724.06 -566.64
 endline
+
 line u:splay -visibility off
   730.08 -521.51
   731.21 -539.86
 endline
+
 line u:splay -visibility off
   730.08 -521.51
   728.18 -529.04
 endline
+
 line u:splay -visibility off
   730.08 -521.51
   913.78 -558.55
 endline
+
 line u:splay -visibility off
   730.08 -521.51
   869.08 -580.51
 endline
+
 line u:splay -visibility off
   730.08 -521.51
-  810.80 -600.93
+  810.8 -600.93
 endline
+
 line u:splay -visibility off
   730.08 -521.51
   743.61 -604.62
 endline
+
 line u:splay -visibility off
   730.08 -521.51
   699.88 -597.65
 endline
+
 line u:splay -visibility off
   730.08 -521.51
   649.74 -591.17
 endline
+
 line u:splay -visibility off
   730.08 -521.51
   611.77 -583.53
 endline
+
 line u:splay -visibility off
   730.08 -521.51
   518.26 -587.28
 endline
+
 line u:splay -visibility off
   730.08 -521.51
   446.54 -515.89
 endline
+
 line u:splay -visibility off
   730.08 -521.51
   549.27 -501.74
 endline
+
 line u:splay -visibility off
   730.08 -521.51
   686.58 -513.23
 endline
+
 line u:splay -visibility off
   1245.51 -541.47
-  1237.50 -489.59
+  1237.5 -489.59
 endline
+
 line u:splay -visibility off
   1245.51 -541.47
   1180.81 -479.22
 endline
+
 line u:splay -visibility off
   1245.51 -541.47
   1097.47 -473.99
 endline
+
 line u:splay -visibility off
   1245.51 -541.47
   985.87 -495.68
 endline
+
 line u:splay -visibility off
   1245.51 -541.47
   865.08 -501.98
 endline
+
 line u:splay -visibility off
   1245.51 -541.47
   724.65 -510.57
 endline
+
 line u:splay -visibility off
   1245.51 -541.47
   932.78 -557.92
 endline
+
 line u:splay -visibility off
   1245.51 -541.47
-  1074.90 -586.98
+  1074.9 -586.98
 endline
+
 line u:splay -visibility off
   1245.51 -541.47
   1162.05 -610.21
 endline
+
 line u:splay -visibility off
   1245.51 -541.47
-  1235.31 -612.60
+  1235.31 -612.6
 endline
+
 line u:splay -visibility off
   1245.51 -541.47
   1300.87 -581.31
 endline
+
 line u:splay -visibility off
   1245.51 -541.47
   1278.36 -510.34
 endline
+
 line u:splay -visibility off
   1245.51 -541.47
   1376.68 -543.85
 endline
+
 line u:splay -visibility off
   1245.51 -541.47
   1548.05 -426.37
 endline
+
 line u:splay -visibility off
   1245.51 -541.47
   1473.07 -420.34
 endline
+
 line u:splay -visibility off
   1245.51 -541.47
   1397.15 -405.85
 endline
+
 line u:splay -visibility off
   1245.51 -541.47
   1300.77 -436.76
 endline
+
 line u:splay -visibility off
   1245.51 -541.47
   1250.94 -486.84
 endline
+
 line u:splay -visibility off
   1592.69 -444.86
   1352.54 -404.96
 endline
+
 line u:splay -visibility off
   1592.69 -444.86
   1255.08 -474.26
 endline
+
 line u:splay -visibility off
   1592.69 -444.86
   1431.22 -514.88
 endline
+
 line u:splay -visibility off
   1592.69 -444.86
-  1492.30 -531.77
+  1492.3 -531.77
 endline
+
 line u:splay -visibility off
   1592.69 -444.86
   1552.83 -538.78
 endline
+
 line u:splay -visibility off
   1592.69 -444.86
   1603.76 -536.79
 endline
+
 line u:splay -visibility off
   1592.69 -444.86
   1649.53 -512.29
 endline
+
 line u:splay -visibility off
   1592.69 -444.86
-  1705.63 -503.90
+  1705.63 -503.9
 endline
+
 line u:splay -visibility off
   1592.69 -444.86
   1761.17 -459.87
 endline
+
 line u:splay -visibility off
   1592.69 -444.86
   1811.58 -440.81
 endline
+
 line u:splay -visibility off
   1592.69 -444.86
   1748.99 -425.37
 endline
+
 line u:splay -visibility off
   1592.69 -444.86
   1719.84 -408.44
 endline
+
 line u:splay -visibility off
   1592.69 -444.86
   1651.05 -424.23
 endline
+
 line u:splay -visibility off
   1592.69 -444.86
   1669.68 -562.21
 endline
+
 line u:splay -visibility off
   1592.69 -444.86
   1603.13 -450.55
 endline
+
 line u:splay -visibility off
   1979.71 -453.34
   2008.06 -466.67
 endline
+
 line u:splay -visibility off
   1979.71 -453.34
   1971.12 -498.17
 endline
+
 line u:splay -visibility off
   1979.71 -453.34
   1871.44 -495.51
 endline
+
 line u:splay -visibility off
   1979.71 -453.34
   1924.71 -500.58
 endline
+
 line u:splay -visibility off
   1979.71 -453.34
   1941.46 -444.97
 endline
+
 line u:splay -visibility off
   1979.71 -453.34
   1924.94 -549.81
 endline
+
 line u:splay -visibility off
   1979.71 -453.34
   1982.35 -588.67
 endline
+
 line u:splay -visibility off
   1979.71 -453.34
   2153.52 -417.71
 endline
+
 line u:splay -visibility off
   1979.71 -453.34
-  2153.20 -515.40
+  2153.2 -515.4
 endline
+
 line u:splay -visibility off
   1979.71 -453.34
-  2078.90 -565.15
+  2078.9 -565.15
 endline
+
 line u:splay -visibility off
   1979.71 -453.34
   1991.78 -584.19
 endline
+
 line u:splay -visibility off
   1979.71 -453.34
   1948.99 -554.89
 endline
+
 line u:splay -visibility off
   1979.71 -453.34
-  1779.60 -420.53
+  1779.6 -420.53
 endline
+
 line u:splay -visibility off
   1979.71 -453.34
   1628.18 -516.08
 endline
+
 line u:splay -visibility off
   1979.71 -453.34
   1821.37 -491.65
 endline
+
 line u:splay -visibility off
   1979.71 -453.34
   1593.61 -445.98
 endline
+
 line u:splay -visibility off
   1979.71 -453.34
   1786.73 -409.97
 endline
+
 line u:splay -visibility off
   1979.71 -453.34
   2156.36 -415.68
 endline
+
 line u:splay -visibility off
   1979.71 -453.34
-  2094.07 -428.10
+  2094.07 -428.1
 endline
+
 line u:splay -visibility off
   1979.71 -453.34
   2056.66 -432.59
 endline
+
 line u:splay -visibility off
-  2149.20 -683.72
+  2149.2 -683.72
   2204.83 -660.71
 endline
+
 line u:splay -visibility off
-  2149.20 -683.72
+  2149.2 -683.72
   2187.62 -633.95
 endline
+
 line u:splay -visibility off
-  2149.20 -683.72
+  2149.2 -683.72
   2162.87 -600.44
 endline
+
 line u:splay -visibility off
-  2149.20 -683.72
+  2149.2 -683.72
   2134.49 -487.85
 endline
+
 line u:splay -visibility off
-  2149.20 -683.72
+  2149.2 -683.72
   2065.33 -415.03
 endline
+
 line u:splay -visibility off
-  2149.20 -683.72
+  2149.2 -683.72
   2021.11 -445.89
 endline
+
 line u:splay -visibility off
-  2149.20 -683.72
-  1909.27 -526.80
+  2149.2 -683.72
+  1909.27 -526.8
 endline
+
 line u:splay -visibility off
-  2149.20 -683.72
+  2149.2 -683.72
   2213.68 -838.43
 endline
+
 line u:splay -visibility off
-  2149.20 -683.72
+  2149.2 -683.72
   2319.03 -810.65
 endline
+
 line u:splay -visibility off
-  2149.20 -683.72
+  2149.2 -683.72
   2364.67 -734.73
 endline
+
 line u:splay -visibility off
-  2149.20 -683.72
+  2149.2 -683.72
   2206.02 -687.77
 endline
+
 line u:splay -visibility off
-  2149.20 -683.72
+  2149.2 -683.72
   2042.69 -687.08
 endline
+
 line u:splay -visibility off
   2254.61 -771.56
   2270.88 -698.17
 endline
+
 line u:splay -visibility off
   2254.61 -771.56
   2251.87 -753.42
 endline
+
 line u:splay -visibility off
   2254.61 -771.56
   2278.17 -728.77
 endline
+
 line u:splay -visibility off
   2254.61 -771.56
   2368.81 -737.09
 endline
+
 line u:splay -visibility off
   2254.61 -771.56
-  2361.10 -657.31
+  2361.1 -657.31
 endline
+
 line u:splay -visibility off
-  2444.20 -630.97
+  2444.2 -630.97
   2406.52 -706.14
 endline
+
 line u:splay -visibility off
-  2444.20 -630.97
+  2444.2 -630.97
   2346.15 -737.73
 endline
+
 line u:splay -visibility off
-  2444.20 -630.97
+  2444.2 -630.97
   2258.72 -772.86
 endline
+
 line u:splay -visibility off
-  2444.20 -630.97
+  2444.2 -630.97
   2390.41 -621.03
 endline
+
 line u:splay -visibility off
-  2444.20 -630.97
+  2444.2 -630.97
   2373.08 -637.34
 endline
+
 line u:splay -visibility off
-  2444.20 -630.97
+  2444.2 -630.97
   2299.45 -678.59
 endline
+
 line u:splay -visibility off
   2424.18 -416.45
   2441.73 -357.68
 endline
+
 line u:splay -visibility off
   2424.18 -416.45
   2392.69 -348.99
 endline
+
 line u:splay -visibility off
   2424.18 -416.45
   2375.43 -375.73
 endline
+
 line u:splay -visibility off
   2424.18 -416.45
   2477.24 -431.99
 endline
+
 line u:splay -visibility off
   2424.18 -416.45
   2443.33 -409.96
 endline
+
 line u:splay -visibility off
   2424.18 -416.45
-  2407.98 -457.20
+  2407.98 -457.2
 endline
+
 line u:splay -visibility off
   2424.18 -416.45
   2408.52 -490.17
 endline
+
 line u:splay -visibility off
   2424.18 -416.45
   2415.66 -504.11
 endline
+
 line u:splay -visibility off
   2424.18 -416.45
-  2471.30 -451.36
+  2471.3 -451.36
 endline
+
 line u:splay -visibility off
   2424.18 -416.45
-  2491.72 -473.00
+  2491.72 -473.0
 endline
+
 line u:splay -visibility off
   2424.18 -416.45
-  2488.10 -497.34
+  2488.1 -497.34
 endline
+
 line u:splay -visibility off
   2457.73 -308.24
   2511.17 -195.14
 endline
+
 line u:splay -visibility off
   2516.83 -184.28
   2439.95 -264.18
 endline
+
 line u:splay -visibility off
   2516.83 -184.28
   2427.06 -219.85
 endline
+
 line u:splay -visibility off
   2516.83 -184.28
   2410.21 -171.01
 endline
+
 line u:splay -visibility off
   2516.83 -184.28
   2374.93 -103.21
 endline
+
 line u:splay -visibility off
   2516.83 -184.28
   2475.44 -139.27
 endline
+
 line u:splay -visibility off
   2516.83 -184.28
-  2543.70 -38.42
+  2543.7 -38.42
 endline
+
 line u:splay -visibility off
   2516.83 -184.28
   2564.63 -146.31
 endline
+
 line u:splay -visibility off
   2403.11 -114.41
-  2432.02 63.20
+  2432.02 63.2
 endline
+
 line u:splay -visibility off
   2403.11 -114.41
   2475.23 29.97
 endline
+
 line u:splay -visibility off
   2403.11 -114.41
   2523.25 -25.99
 endline
+
 line u:splay -visibility off
   2403.11 -114.41
-  2398.79 -110.20
+  2398.79 -110.2
 endline
+
 line u:splay -visibility off
   2403.11 -114.41
-  2366.20 4.11
+  2366.2 4.11
 endline
+
 line u:splay -visibility off
   2403.11 -114.41
   2363.49 -110.44
 endline
+
 line u:splay -visibility off
   2403.11 -114.41
   2390.98 -161.52
 endline
+
 line u:splay -visibility off
   2403.11 -114.41
-  2424.06 -186.80
+  2424.06 -186.8
 endline
+
 line u:splay -visibility off
   2436.42 63.04
   2508.83 166.38
 endline
+
 line u:splay -visibility off
   2512.47 183.27
-  2550.20 189.01
+  2550.2 189.01
 endline
+
 line u:splay -visibility off
   2512.47 183.27
   2549.09 202.74
 endline
+
 line u:splay -visibility off
   2512.47 183.27
   2519.69 216.38
 endline
+
 line u:splay -visibility off
   2512.47 183.27
   2493.41 198.96
 endline
+
 line u:splay -visibility off
   2512.47 183.27
   2464.82 151.01
 endline
+
 line u:splay -visibility off
   2512.47 183.27
   2566.66 166.18
 endline
+
 line u:splay -visibility off
   2512.47 183.27
   2993.87 -212.73
 endline
+
 line u:splay -visibility off
   2512.47 183.27
-  2639.60 34.37
+  2639.6 34.37
 endline
+
 line u:splay -visibility off
   2759.96 -51.95
   2798.48 19.72
 endline
+
 line u:splay -visibility off
   2759.96 -51.95
   2730.66 51.99
 endline
+
 line u:splay -visibility off
   2759.96 -51.95
-  2600.86 133.50
+  2600.86 133.5
 endline
+
 line u:splay -visibility off
   2759.96 -51.95
   2608.45 38.75
 endline
+
 line u:splay -visibility off
   2759.96 -51.95
   2653.82 -37.31
 endline
+
 line u:splay -visibility off
   2759.96 -51.95
   2872.26 -29.82
 endline
+
 line u:splay -visibility off
   2759.96 -51.95
   2933.45 -96.77
 endline
+
 line u:splay -visibility off
   2759.96 -51.95
   2822.14 -119.63
 endline
+
 line u:splay -visibility off
   2759.96 -51.95
   2785.61 -122.73
 endline
+
 line u:splay -visibility off
   2759.96 -51.95
   2739.33 -124.98
 endline
+
 line u:splay -visibility off
   2759.96 -51.95
   2710.83 -84.66
 endline
+
 line u:splay -visibility off
   2759.96 -51.95
   2682.03 -74.04
 endline
+
 line u:splay -visibility off
   2759.96 -51.95
   2732.51 -83.32
 endline
+
 line u:splay -visibility off
   2759.96 -51.95
   2724.92 -108.18
 endline
+
 line u:splay -visibility off
   2759.96 -51.95
-  2741.33 -84.40
+  2741.33 -84.4
 endline
+
 line u:splay -visibility off
   2759.96 -51.95
   2745.85 -67.09
 endline
+
 line u:splay -visibility off
   2759.96 -51.95
   2776.92 13.85
 endline
+
 line u:splay -visibility off
   2759.96 -51.95
-  2794.45 62.40
+  2794.45 62.4
 endline
+
 line u:splay -visibility off
   2759.96 -51.95
   2785.79 26.25
 endline
+
 line u:splay -visibility off
   2759.96 -51.95
   2779.73 11.47
 endline
+
 line u:splay -visibility off
   2759.96 -51.95
   2771.33 -18.22
 endline
+
 line u:splay -visibility off
   2759.96 -51.95
   3190.64 -323.46
 endline
+
 line u:splay -visibility off
   3161.38 -305.04
-  2985.19 -130.00
+  2985.19 -130.0
 endline
+
 line u:splay -visibility off
   3161.38 -305.04
-  3093.86 -224.60
+  3093.86 -224.6
 endline
+
 line u:splay -visibility off
   3161.38 -305.04
-  3135.30 -245.91
+  3135.3 -245.91
 endline
+
 line u:splay -visibility off
   3161.38 -305.04
-  3285.30 -433.29
+  3285.3 -433.29
 endline
+
 line u:splay -visibility off
   3161.38 -305.04
   3266.51 -540.64
 endline
+
 line u:splay -visibility off
   3161.38 -305.04
-  3218.43 -586.50
+  3218.43 -586.5
 endline
+
 line u:splay -visibility off
   3161.38 -305.04
   3149.95 -394.62
 endline
+
 line u:splay -visibility off
   3161.38 -305.04
   3116.26 -355.63
 endline
+
 line u:splay -visibility off
   3161.38 -305.04
   3081.54 -330.99
 endline
+
 line u:splay -visibility off
   3161.38 -305.04
   3042.98 -308.11
 endline
+
 line u:splay -visibility off
   3161.38 -305.04
   2943.13 -237.42
 endline
+
 line u:splay -visibility off
   3161.38 -305.04
   2935.76 -193.93
 endline
+
 line u:splay -visibility off
   3188.85 -629.13
   3133.71 -623.63
 endline
+
 line u:splay -visibility off
   3188.85 -629.13
   3127.74 -576.77
 endline
+
 line u:splay -visibility off
   3188.85 -629.13
   3132.09 -537.69
 endline
+
 line u:splay -visibility off
   3188.85 -629.13
   3144.02 -473.64
 endline
+
 line u:splay -visibility off
   3188.85 -629.13
   3093.85 -679.15
 endline
+
 line u:splay -visibility off
   3188.85 -629.13
   3089.49 -779.04
 endline
+
 line u:splay -visibility off
   3188.85 -629.13
   3182.19 -642.46
 endline
+
 line u:splay -visibility off
   3188.85 -629.13
   3171.49 -675.99
 endline
+
 line u:splay -visibility off
   3188.85 -629.13
   3165.52 -608.24
 endline
+
 line u:splay -visibility off
   3188.85 -629.13
   3250.53 -579.64
 endline
+
 line u:splay -visibility off
   3188.85 -629.13
-  3286.10 -499.70
+  3286.1 -499.7
 endline
+
 line u:splay -visibility off
-  3061.50 -879.95
+  3061.5 -879.95
   3112.63 -894.27
 endline
+
 line u:splay -visibility off
-  3061.50 -879.95
+  3061.5 -879.95
   3136.27 -905.95
 endline
+
 line u:splay -visibility off
-  3061.50 -879.95
+  3061.5 -879.95
   3091.52 -930.27
 endline
+
 line u:splay -visibility off
-  3061.50 -879.95
+  3061.5 -879.95
   3146.29 -961.45
 endline
+
 line u:splay -visibility off
-  3061.50 -879.95
-  3094.50 -863.42
+  3061.5 -879.95
+  3094.5 -863.42
 endline
+
 line u:splay -visibility off
-  3061.50 -879.95
+  3061.5 -879.95
   3126.57 -798.84
 endline
+
 line u:splay -visibility off
-  3061.50 -879.95
-  3141.66 -729.60
+  3061.5 -879.95
+  3141.66 -729.6
 endline
+
 line u:splay -visibility off
   2313.35 -639.33
-  2180.06 -584.50
+  2180.06 -584.5
 endline
+
 line u:splay -visibility off
   2313.35 -639.33
   2230.08 -671.13
 endline
+
 line u:splay -visibility off
   2313.35 -639.33
   2208.35 -718.21
 endline
+
 line u:splay -visibility off
   2313.35 -639.33
-  2191.10 -811.80
+  2191.1 -811.8
 endline
+
 line u:splay -visibility off
   2313.35 -639.33
   2305.59 -844.16
 endline
+
 line u:splay -visibility off
   2313.35 -639.33
   2369.93 -848.13
 endline
+
 line u:splay -visibility off
   2313.35 -639.33
   2405.67 -813.41
 endline
+
 line u:splay -visibility off
   2313.35 -639.33
   2456.16 -768.37
 endline
+
 line u:splay -visibility off
   2313.35 -639.33
   2487.91 -767.53
 endline
+
 line u:splay -visibility off
   2313.35 -639.33
   2522.44 -759.38
 endline
+
 line u:splay -visibility off
   2313.35 -639.33
   2406.81 -678.67
 endline
+
 line u:splay -visibility off
   2313.35 -639.33
-  2358.60 -646.85
+  2358.6 -646.85
 endline
+
 line u:splay -visibility off
-  2375.00 -669.24
+  2375.0 -669.24
   2370.77 -746.69
 endline
+
 line u:splay -visibility off
-  2375.00 -669.24
+  2375.0 -669.24
   2446.64 -755.48
 endline
+
 line u:splay -visibility off
-  2375.00 -669.24
+  2375.0 -669.24
   2501.05 -770.68
 endline
+
 line u:splay -visibility off
-  2375.00 -669.24
+  2375.0 -669.24
   2458.29 -659.33
 endline
+
 line u:splay -visibility off
-  2375.00 -669.24
+  2375.0 -669.24
   2443.99 -601.85
 endline
+
 line u:splay -visibility off
-  2375.00 -669.24
+  2375.0 -669.24
   2406.97 -572.14
 endline
+
 line u:splay -visibility off
-  2375.00 -669.24
+  2375.0 -669.24
   2278.97 -849.07
 endline
+
 line u:splay -visibility off
-  2375.00 -669.24
-  2179.24 -846.60
+  2375.0 -669.24
+  2179.24 -846.6
 endline
+
 line u:splay -visibility off
-  2375.00 -669.24
+  2375.0 -669.24
   2189.88 -723.11
 endline
+
 line u:splay -visibility off
-  2375.00 -669.24
+  2375.0 -669.24
   2238.22 -654.33
 endline
+
 line u:splay -visibility off
-  2375.00 -669.24
+  2375.0 -669.24
   2249.56 -577.67
 endline
+
 line u:splay -visibility off
-  2375.00 -669.24
+  2375.0 -669.24
   2308.15 -555.09
 endline
+
 line u:splay -visibility off
-  2375.00 -669.24
+  2375.0 -669.24
   2376.99 -446.95
 endline
+
 line u:splay -visibility off
-  2375.00 -669.24
-  2404.05 -410.50
+  2375.0 -669.24
+  2404.05 -410.5
 endline
+
 line u:splay -visibility off
-  2375.00 -669.24
+  2375.0 -669.24
   2401.66 -531.23
 endline
+
 line u:splay -visibility off
-  2375.00 -669.24
+  2375.0 -669.24
   2335.04 -550.86
 endline
+
 line u:splay -visibility off
-  2375.00 -669.24
-  2324.11 -526.10
+  2375.0 -669.24
+  2324.11 -526.1
 endline
+
 line u:splay -visibility off
-  2375.00 -669.24
-  2301.50 -559.21
+  2375.0 -669.24
+  2301.5 -559.21
 endline
+
 line u:splay -visibility off
   2036.15 -1139.15
   2037.55 -1097.22
 endline
+
 line u:splay -visibility off
   2036.15 -1139.15
   2056.56 -1030.03
 endline
+
 line u:splay -visibility off
   2036.15 -1139.15
   2092.06 -993.51
 endline
+
 line u:splay -visibility off
   2036.15 -1139.15
   2136.39 -964.75
 endline
+
 line u:splay -visibility off
   2036.15 -1139.15
   2187.83 -902.89
 endline
+
 line u:splay -visibility off
   2036.15 -1139.15
   2292.27 -908.22
 endline
+
 line u:splay -visibility off
   2036.15 -1139.15
   2314.49 -943.08
 endline
+
 line u:splay -visibility off
   2036.15 -1139.15
   2362.53 -960.08
 endline
+
 line u:splay -visibility off
   2036.15 -1139.15
   2371.96 -967.04
 endline
+
 line u:splay -visibility off
   2036.15 -1139.15
   2205.44 -1055.68
 endline
+
 line u:splay -visibility off
   2036.15 -1139.15
   2169.31 -1081.68
 endline
+
 line u:splay -visibility off
   2036.15 -1139.15
   2165.57 -1095.68
 endline
+
 line u:splay -visibility off
   2036.15 -1139.15
-  2159.50 -1116.11
+  2159.5 -1116.11
 endline
+
 line u:splay -visibility off
   2036.15 -1139.15
   2153.14 -1137.26
 endline
+
 line u:splay -visibility off
   2036.15 -1139.15
   2163.67 -1109.63
 endline
+
 line u:splay -visibility off
   2036.15 -1139.15
   2153.16 -1141.92
 endline
+
 line u:splay -visibility off
   2036.15 -1139.15
   2144.26 -1164.72
 endline
+
 line u:splay -visibility off
   2036.15 -1139.15
   2121.18 -1203.18
 endline
+
 line u:splay -visibility off
   2036.15 -1139.15
-  2100.78 -1256.10
+  2100.78 -1256.1
 endline
+
 line u:splay -visibility off
   2036.15 -1139.15
   2018.15 -1184.65
 endline
+
 line u:splay -visibility off
   2036.15 -1139.15
   2009.63 -1232.46
 endline
+
 line u:splay -visibility off
   2036.15 -1139.15
   2008.77 -1312.72
 endline
+
 line u:splay -visibility off
   2036.15 -1139.15
   2029.04 -1406.97
 endline
+
 line u:splay -visibility off
   2036.15 -1139.15
   2034.96 -1554.31
 endline
+
 line u:splay -visibility off
   2036.15 -1139.15
   2094.13 -1271.49
 endline
 
 point 500.00 -600.00 station -name "1"
+
 point 730.08 -521.51 station -name "2"
+
 point 1245.51 -541.47 station -name "3"
+
 point 1592.69 -444.86 station -name "4"
+
 point 1979.71 -453.34 station -name "5"
+
 point 2149.20 -683.72 station -name "6"
+
 point 2189.27 -759.37 station -name "7"
+
 point 2254.61 -771.56 station -name "8"
+
 point 2444.20 -630.97 station -name "9"
+
 point 2424.18 -416.45 station -name "10"
+
 point 2457.73 -308.24 station -name "11"
+
 point 2516.83 -184.28 station -name "12"
+
 point 2403.11 -114.41 station -name "13"
+
 point 2436.42 63.04 station -name "14"
+
 point 2512.47 183.27 station -name "15"
+
 point 2759.96 -51.95 station -name "16"
+
 point 3161.38 -305.04 station -name "17"
+
 point 3188.85 -629.13 station -name "18"
+
 point 3061.50 -879.95 station -name "19"
+
 point 3322.12 -1027.92 station -name "20"
+
 point 2181.76 -843.98 station -name "21"
+
 point 2313.35 -639.33 station -name "22"
+
 point 2375.00 -669.24 station -name "23"
+
 point 2036.15 -1139.15 station -name "24"
 
-
 endscrap
+
+
