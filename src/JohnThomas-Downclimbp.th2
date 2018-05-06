@@ -1,0 +1,255 @@
+encoding utf-8
+##XTHERION## xth_me_area_adjust 375.8 -643.1 855.9 -207.8
+##XTHERION## xth_me_area_zoom_to 25
+
+# 2018.05.05 created by TopoDroid v. 4.0.0h
+
+#P  u:user label air-draught blocks clay continuation debris entrance flowstone rimstone-pool paleo-material pillar pillars sand soda-straw stalactite stalactites stalagmite stalagmites wall-calcite water-flow
+#L  u:user wall arrow border overhang pit wall:presumed rock-border section slope wall:blocks
+#A  u:user water blocks clay debris pebbles sand
+scrap JohnThomas-Downclimbp -projection plan -scale [0 0 100 0 0 0 1 0 m]
+
+line wall
+  411.51 -634.17
+  399.68 -653.91
+  392.36 -676.95
+  390.46 -697.16
+  388.87 -717.66
+  390.18 -739.13
+  390.61 -760.55
+  378.51 -776.44
+  363.79 -791.59
+  344.65 -807.25
+  331.12 -825.49
+  316.67 -842.39
+endline
+
+line wall
+  321.40 -869.24
+  344.72 -857.93
+  362.73 -844.45
+  377.75 -826.55
+  395.62 -813.20
+  412.59 -800.63
+  430.10 -789.58
+  449.97 -792.98
+  473.23 -801.88
+  495.40 -806.68
+  521.70 -802.79
+  544.42 -794.52
+  563.31 -785.29
+  583.50 -769.95
+  597.35 -749.80
+endline
+
+line wall
+  596.58 -759.29
+  614.18 -747.69
+  629.11 -733.70
+  644.68 -718.03
+endline
+
+line wall
+  646.93 -729.60
+  674.17 -731.46
+  701.18 -727.63
+  712.09 -712.05
+  701.81 -692.79
+  680.75 -678.06
+  662.77 -669.13
+  640.74 -656.30
+  616.16 -641.21
+  598.40 -626.30
+  579.17 -609.19
+  559.38 -591.11
+  534.42 -576.09
+  515.73 -566.44
+  496.67 -556.28
+  476.41 -544.61
+  455.97 -531.21
+  431.95 -516.28
+  411.67 -508.45
+  391.30 -509.48
+  383.53 -537.69
+  382.26 -565.43
+  390.74 -595.00
+  399.99 -615.58
+  407.74 -634.06
+endline
+
+line pit
+  600.38 -646.29
+  580.28 -626.19
+  560.23 -607.63
+  537.69 -597.02
+  514.75 -588.18
+  493.93 -578.24
+  481.44 -559.98
+endline
+
+line pit
+  400.57 -625.22
+  419.07 -616.45
+  446.38 -625.73
+  465.59 -637.97
+  490.62 -655.13
+  513.62 -674.27
+  531.29 -691.06
+  556.31 -707.90
+  585.19 -714.26
+  597.77 -695.57
+  605.14 -669.72
+  593.13 -644.41
+endline
+
+
+line u:splay -visibility off
+  335.85 -644.38
+  391.48 -621.37
+endline
+line u:splay -visibility off
+  335.85 -644.38
+  374.27 -594.61
+endline
+line u:splay -visibility off
+  335.85 -644.38
+  349.52 -561.11
+endline
+line u:splay -visibility off
+  335.85 -644.38
+  321.14 -448.52
+endline
+line u:splay -visibility off
+  335.85 -644.38
+  251.97 -375.69
+endline
+line u:splay -visibility off
+  335.85 -644.38
+  207.76 -406.55
+endline
+line u:splay -visibility off
+  335.85 -644.38
+  95.92 -487.47
+endline
+line u:splay -visibility off
+  335.85 -644.38
+  400.33 -799.09
+endline
+line u:splay -visibility off
+  335.85 -644.38
+  505.67 -771.32
+endline
+line u:splay -visibility off
+  335.85 -644.38
+  551.32 -695.40
+endline
+line u:splay -visibility off
+  335.85 -644.38
+  392.67 -648.43
+endline
+line u:splay -visibility off
+  335.85 -644.38
+  229.34 -647.74
+endline
+line u:splay -visibility off
+  441.25 -732.22
+  457.53 -658.84
+endline
+line u:splay -visibility off
+  441.25 -732.22
+  438.52 -714.09
+endline
+line u:splay -visibility off
+  441.25 -732.22
+  464.82 -689.44
+endline
+line u:splay -visibility off
+  441.25 -732.22
+  555.46 -697.76
+endline
+line u:splay -visibility off
+  441.25 -732.22
+  547.75 -617.98
+endline
+line u:splay -visibility off
+  630.85 -591.64
+  593.17 -666.81
+endline
+line u:splay -visibility off
+  630.85 -591.64
+  532.79 -698.40
+endline
+line u:splay -visibility off
+  630.85 -591.64
+  445.37 -733.52
+endline
+line u:splay -visibility off
+  630.85 -591.64
+  577.06 -581.70
+endline
+line u:splay -visibility off
+  630.85 -591.64
+  559.72 -598.00
+endline
+line u:splay -visibility off
+  630.85 -591.64
+  486.10 -639.26
+endline
+line u:splay -visibility off
+  500.00 -600.00
+  366.71 -545.16
+endline
+line u:splay -visibility off
+  500.00 -600.00
+  416.73 -631.80
+endline
+line u:splay -visibility off
+  500.00 -600.00
+  395.00 -678.88
+endline
+line u:splay -visibility off
+  500.00 -600.00
+  377.74 -772.46
+endline
+line u:splay -visibility off
+  500.00 -600.00
+  492.24 -804.83
+endline
+line u:splay -visibility off
+  500.00 -600.00
+  556.58 -808.79
+endline
+line u:splay -visibility off
+  500.00 -600.00
+  592.32 -774.07
+endline
+line u:splay -visibility off
+  500.00 -600.00
+  642.81 -729.03
+endline
+line u:splay -visibility off
+  500.00 -600.00
+  674.56 -728.19
+endline
+line u:splay -visibility off
+  500.00 -600.00
+  709.09 -720.04
+endline
+line u:splay -visibility off
+  500.00 -600.00
+  593.46 -639.33
+endline
+line u:splay -visibility off
+  500.00 -600.00
+  545.24 -607.52
+endline
+
+point 500.00 -600.00 station -name "22"
+point 368.41 -804.65 station -name "21"
+point 375.92 -720.04 station -name "7"
+point 335.85 -644.38 station -name "6"
+point 441.25 -732.22 station -name "8"
+point 630.85 -591.64 station -name "9"
+
+
+endscrap

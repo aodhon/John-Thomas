@@ -1,0 +1,68 @@
+encoding utf-8
+##XTHERION## xth_me_area_adjust 594.8 -323.7 600.8 -317.7
+##XTHERION## xth_me_area_zoom_to 25
+
+# 2018.05.05 created by TopoDroid v. 4.0.0h
+
+#P  u:user label air-draught blocks clay continuation debris entrance flowstone rimstone-pool paleo-material pillar pillars sand soda-straw stalactite stalactites stalagmite stalagmites wall-calcite water-flow
+#L  u:user wall arrow border overhang pit wall:presumed rock-border section slope wall:blocks
+#A  u:user water blocks clay debris pebbles sand
+scrap JohnThomas-xx1 -projection none -scale [0 0 100 0 0 0 1 0 m]
+
+
+line u:splay -visibility off
+  500.00 -600.00
+  445.45 -613.52
+endline
+line u:splay -visibility off
+  500.00 -600.00
+  437.35 -618.35
+endline
+line u:splay -visibility off
+  500.00 -600.00
+  429.37 -604.33
+endline
+line u:splay -visibility off
+  500.00 -600.00
+  365.54 -575.79
+endline
+line u:splay -visibility off
+  500.00 -600.00
+  358.57 -560.04
+endline
+line u:splay -visibility off
+  500.00 -600.00
+  411.20 -570.86
+endline
+line u:splay -visibility off
+  500.00 -600.00
+  546.42 -579.79
+endline
+line u:splay -visibility off
+  500.00 -600.00
+  570.49 -731.76
+endline
+line u:splay -visibility off
+  500.00 -600.00
+  478.85 -697.58
+endline
+line u:splay -visibility off
+  500.00 -600.00
+  392.04 -676.29
+endline
+line u:splay -visibility off
+  500.00 -600.00
+  464.60 -621.26
+endline
+line u:splay -visibility off
+  500.00 -600.00
+  502.96 -664.51
+endline
+line u:splay -visibility off
+  500.00 -600.00
+  574.44 -665.14
+endline
+
+
+
+endscrap

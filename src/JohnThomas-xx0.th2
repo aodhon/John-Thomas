@@ -1,0 +1,152 @@
+encoding utf-8
+##XTHERION## xth_me_area_adjust 504.4 -413.0 709.2 -285.1
+##XTHERION## xth_me_area_zoom_to 25
+
+# 2018.05.05 created by TopoDroid v. 4.0.0h
+
+#P  u:user label air-draught blocks clay continuation debris entrance flowstone rimstone-pool paleo-material pillar pillars sand soda-straw stalactite stalactites stalagmite stalagmites wall-calcite water-flow
+#L  u:user wall arrow border overhang pit wall:presumed rock-border section slope wall:blocks
+#A  u:user water blocks clay debris pebbles sand
+scrap JohnThomas-xx0 -projection none -scale [0 0 100 0 0 0 1 0 m]
+
+line wall
+  420.35 -601.49
+  440.15 -610.33
+  457.68 -621.24
+endline
+
+line wall
+  461.83 -626.48
+  477.14 -639.21
+  494.13 -656.94
+  512.56 -667.67
+  532.09 -677.45
+endline
+
+line wall
+  544.55 -675.93
+  565.59 -673.79
+  586.81 -674.69
+  586.68 -653.83
+  579.80 -632.78
+  569.17 -614.37
+  563.88 -593.41
+  549.08 -576.86
+  528.77 -573.18
+  505.86 -572.87
+endline
+
+line wall
+  509.48 -571.97
+  497.66 -588.27
+  481.45 -594.85
+  458.38 -593.98
+  436.16 -592.79
+  428.81 -603.10
+endline
+
+
+line u:splay -visibility off
+  558.73 -641.42
+  654.86 -628.75
+endline
+line u:splay -visibility off
+  558.73 -641.42
+  647.91 -632.04
+endline
+line u:splay -visibility off
+  558.73 -641.42
+  552.30 -628.84
+endline
+line u:splay -visibility off
+  558.73 -641.42
+  509.72 -650.40
+endline
+line u:splay -visibility off
+  558.73 -641.42
+  448.76 -639.54
+endline
+line u:splay -visibility off
+  558.73 -641.42
+  412.63 -629.96
+endline
+line u:splay -visibility off
+  558.73 -641.42
+  329.15 -618.95
+endline
+line u:splay -visibility off
+  558.73 -641.42
+  397.55 -624.34
+endline
+line u:splay -visibility off
+  558.73 -641.42
+  363.27 -634.20
+endline
+line u:splay -visibility off
+  558.73 -641.42
+  431.47 -641.40
+endline
+line u:splay -visibility off
+  558.73 -641.42
+  468.88 -641.19
+endline
+line u:splay -visibility off
+  558.73 -641.42
+  548.22 -640.89
+endline
+line u:splay -visibility off
+  500.00 -600.00
+  422.42 -601.30
+endline
+line u:splay -visibility off
+  500.00 -600.00
+  455.47 -614.02
+endline
+line u:splay -visibility off
+  500.00 -600.00
+  472.87 -629.30
+endline
+line u:splay -visibility off
+  500.00 -600.00
+  485.52 -649.04
+endline
+line u:splay -visibility off
+  500.00 -600.00
+  510.68 -664.45
+endline
+line u:splay -visibility off
+  500.00 -600.00
+  548.29 -675.38
+endline
+line u:splay -visibility off
+  500.00 -600.00
+  596.21 -673.02
+endline
+line u:splay -visibility off
+  500.00 -600.00
+  587.09 -637.22
+endline
+line u:splay -visibility off
+  500.00 -600.00
+  572.00 -608.10
+endline
+line u:splay -visibility off
+  500.00 -600.00
+  565.44 -584.28
+endline
+line u:splay -visibility off
+  500.00 -600.00
+  544.44 -571.33
+endline
+line u:splay -visibility off
+  500.00 -600.00
+  518.38 -573.44
+endline
+line u:splay -visibility off
+  500.00 -600.00
+  507.34 -571.33
+endline
+
+
+
+endscrap
